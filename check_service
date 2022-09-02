@@ -76,7 +76,7 @@ else
     		echo -e "OK: $SERVICE is running"
     		exit $OK
 	else
-    		echo -e "CRITICAL: $SERVICE is not running!"
+    		echo -e "CRITICAL: $SERVICE is not running! status $EXITCODE"
     		exit $CRITICAL
 	fi
 
